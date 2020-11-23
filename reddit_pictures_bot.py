@@ -3,7 +3,7 @@ import configparser
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
 
-# Use configparser to red the ini files and fetch the credentials to access TG and reddit
+# Use configparser to read the ini files and fetch the credentials to access TG and reddit
 cf_parser = configparser.ConfigParser()
 
 # The objects that the telegram bot needs to work
